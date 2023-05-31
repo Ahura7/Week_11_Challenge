@@ -29,9 +29,27 @@ USYD FinTech Course Week 11 Challenge Repo
 
 ## Step 3:
 
+### Step 1
+![MercadoLibre Stock Closing Price 2015-2020!](/images/bokeh_plot_mercado_close.png)
 
+### Step 2
+![Closing Price and Search Trends data for MercadoLiber Jan-Jun 2020!](/images/bokeh_plot_search_Jan-Jun_2020.png)
+![Closing Price and Search Trends data for MercadoLiber Jan-Jun 2020!](/images/bokeh_plot_close_Jan-Jun_2020.png)
 
+**Question:** Do both time series indicate a common trend that’s consistent with this narrative?
+**Answer:** *The drop in March 2020 in stock price and the drop in search trends as well as the spikes in May seem to indicate a common trend consistent with the narrative.*
+
+### Step 3
+![MercadoLibre Stock Volitity!](/images/bokeh_plot_stock_volatility.png)
+
+### Step 4
+**Question:** Does a predictable relationship exist between the lagged search traffic and the stock volatility or between the lagged search traffic and the stock price returns?
+**Answer:** *There seems to be a weak negative correlation between lagged search traffic and stock volatility and much smaller positive correlation with stock returns.*
+
+## Step 4:
 
 # Resources:
 - https://www.stechies.com/compare-lists-python-using-set-cmp-function/
 - https://www.markdownguide.org/basic-syntax/
+- https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.shift.html
+- https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.corr.html
