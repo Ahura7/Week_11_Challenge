@@ -48,6 +48,32 @@ USYD FinTech Course Week 11 Challenge Repo
 
 ## Step 4:
 
+### Step 2
+![Prophet Predictions for MercadoLibre!](/images/Prophet_Predictions_MercadoLibre.png)
+
+**Question:**  How's the near-term forecast for the popularity of MercadoLibre?
+**Answer:** *It is expected that the popularity will increase based on the above graphs*
+
+### Step 3
+![Prophet yhat, yhat_lower, and yhat_upper columns over the last 2000 hours!](/images/bokeh_plot_Prophet_yhats.png)
+
+![Prophet Forecasted Components!](/images/Prophet_Components.png)
+
+**Question:** What time of day exhibits the greatest popularity?
+**Answer:** *The start/end of the day show the greatest popularity*
+
+**Question:** Which day of week gets the most search traffic? 
+**Answer:** *Tuesdays recieve the most search traffic*
+
+**Question:** What's the lowest point for search traffic in the calendar year?
+**Answer:** *Search traffic is the lowst in October*
+
+
+
+
+
+
+
 # Resources:
 - https://www.stechies.com/compare-lists-python-using-set-cmp-function/
 - https://www.markdownguide.org/basic-syntax/
