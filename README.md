@@ -6,7 +6,7 @@ USYD FinTech Course Week 11 Challenge Repo
 ## Step 1:  
 
 ### Step 1
-![Search Trends for MercadoLibre May-2020!](/images/bokeh_plot_search_trends_May_2020.png)
+![Search Trends for MercadoLibre May-2020](/images/bokeh_plot_search_trends_May_2020.png "Search Trends for MercadoLibre May-2020")
 
 ### Step 2
 **Question:** Did the Google search traffic increase during the month that MercadoLibre released its financial results?
@@ -15,32 +15,32 @@ USYD FinTech Course Week 11 Challenge Repo
 ## Step 2:
 
 ### Step 1
-![MercadoLibre Average Hourly Search Data by Day of Week!](/images/bokeh_plot_hourly_search_by_dow.png)
+![MercadoLibre Average Hourly Search Data by Day of Week](/images/bokeh_plot_hourly_search_by_dow.png "MercadoLibre Average Hourly Search Data by Day of Week")
 
 ### Step 2
-![Heatmap of MercadoLibre Sreach Trends: Day of Week vs Hour!](/images/bokeh_plot_hourly_dow_heatmap.png)
+![Heatmap of MercadoLibre Sreach Trends: Day of Week vs Hour](/images/bokeh_plot_hourly_dow_heatmap.png "Heatmap of MercadoLibre Sreach Trends: Day of Week vs Hour")
 **Question:** Does any day-of-week effect that you observe concentrate in just a few hours of that day?
 **Answer:** *Search trends seem to be more concentrated in the early/late hours of the day and mostly during the start of the week.*
 
 ### Step 3
-![MercadoLibre Average Hourly Search Data by Week of Year!](/images/bokeh_plot_hourly_search_by_woy.png)
+![MercadoLibre Average Hourly Search Data by Week of Year](/images/bokeh_plot_hourly_search_by_woy.png "MercadoLibre Average Hourly Search Data by Week of Year")
 **Question:** Does the search traffic tend to increase during the winter holiday period (weeks 40 through 52)?
 **Answer:** *The search traffic does ineed increase during the winter holidays, dropping over the Christmas/New Year break before increase again in January.*
 
 ## Step 3:
 
 ### Step 1
-![MercadoLibre Stock Closing Price 2015-2020!](/images/bokeh_plot_mercado_close.png)
+![MercadoLibre Stock Closing Price 2015-2020](/images/bokeh_plot_mercado_close.png "MercadoLibre Stock Closing Price 2015-2020")
 
 ### Step 2
-![Closing Price and Search Trends data for MercadoLiber Jan-Jun 2020!](/images/bokeh_plot_search_Jan-Jun_2020.png)
-![Closing Price and Search Trends data for MercadoLiber Jan-Jun 2020!](/images/bokeh_plot_close_Jan-Jun_2020.png)
+![Closing Price and Search Trends data for MercadoLiber Jan-Jun 2020](/images/bokeh_plot_search_Jan-Jun_2020.png "Closing Price and Search Trends data for MercadoLiber Jan-Jun 2020")
+![Closing Price and Search Trends data for MercadoLiber Jan-Jun 2020](/images/bokeh_plot_close_Jan-Jun_2020.png "Closing Price and Search Trends data for MercadoLiber Jan-Jun 2020")
 
 **Question:** Do both time series indicate a common trend that’s consistent with this narrative?
 **Answer:** *The drop in March 2020 in stock price and the drop in search trends as well as the spikes in May seem to indicate a common trend consistent with the narrative.*
 
 ### Step 3
-![MercadoLibre Stock Volitity!](/images/bokeh_plot_stock_volatility.png)
+![MercadoLibre Stock Volitity](/images/bokeh_plot_stock_volatility.png "MercadoLibre Stock Volitity")
 
 ### Step 4
 **Question:** Does a predictable relationship exist between the lagged search traffic and the stock volatility or between the lagged search traffic and the stock price returns?
@@ -49,15 +49,15 @@ USYD FinTech Course Week 11 Challenge Repo
 ## Step 4:
 
 ### Step 2
-![Prophet Predictions for MercadoLibre!](/images/Prophet_Predictions_MercadoLibre.png)
+![Prophet Predictions for MercadoLibre](/images/Prophet_Predictions_MercadoLibre.png "Prophet Predictions for MercadoLibre")
 
 **Question:**  How's the near-term forecast for the popularity of MercadoLibre?
 **Answer:** *It is expected that the popularity will increase based on the above graphs*
 
 ### Step 3
-![Prophet yhat, yhat_lower, and yhat_upper columns over the last 2000 hours!](/images/bokeh_plot_Prophet_yhats.png)
+![Prophet yhat, yhat_lower, and yhat_upper columns over the last 2000 hours](/images/bokeh_plot_Prophet_yhats.png "Prophet yhat, yhat_lower, and yhat_upper columns over the last 2000 hours")
 
-![Prophet Forecasted Components!](/images/Prophet_Components.png)
+![Prophet Forecasted Components](/images/Prophet_Components.png "Prophet Forecasted Components")
 
 **Question:** What time of day exhibits the greatest popularity?
 **Answer:** *The start/end of the day show the greatest popularity*
@@ -70,16 +70,16 @@ USYD FinTech Course Week 11 Challenge Repo
 
 ## Step 5:
 ### Step 1
-![MercadoLibre Sales Prophet DataFrame!](/images/bokeh_plot_MercadoLibre_Sales_Prophet_DataFrame.png)
+![MercadoLibre Sales Prophet DataFrame](/images/bokeh_plot_MercadoLibre_Sales_Prophet_DataFrame.png "MercadoLibre Sales Prophet DataFrame")
 
 ### Step 2
-![Future Prophet Prediction Components for MercadoLibre!](/images/Future_Predictions_Components.png)
+![Future Prophet Prediction Components for MercadoLibre](/images/Future_Predictions_Components.png "Future Prophet Prediction Components for MercadoLibre")
 
 **Question:** For example, what are the peak revenue days? (Mondays? Fridays? Something else?)
 **Answer:** *The peak revenue days are Mondays, Tuesdays and Wednesdays*
 
 ### Step 3
-![Future Prophet Predictions for MercadoLibre!](/images/Future_Predictions_Plot.png)
+![Future Prophet Predictions for MercadoLibre](/images/Future_Predictions_Plot.png "Future Prophet Predictions for MercadoLibre")
 
 ### Based on the forecast information generated above, produce a sales forecast for the finance division, giving them a number for expected total sales next quarter. Include best and worst case scenarios, to better help the finance team plan.
 **Answer:** *Based on the predictions of the Prophet machine learning model, the most likely sales forecast for the next quarter will be ~970 with the best case being ~1052 and worst case being ~888.*
