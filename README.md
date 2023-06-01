@@ -6,7 +6,7 @@ USYD FinTech Course Week 11 Challenge Repo
 ## Step 1:  
 
 ### Step 1
-![Search Trends for MercadoLibre May-2020!](/images/bokeh_plot_search_trends_May_2020.png)
+![Search Trends for MercadoLibre May-2020!](/images/bokeh_plot_search_trends_May_2020.png "Search Trends for MercadoLibre May-2020")
 
 ### Step 2
 **Question:** Did the Google search traffic increase during the month that MercadoLibre released its financial results?
