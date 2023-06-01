@@ -68,8 +68,21 @@ USYD FinTech Course Week 11 Challenge Repo
 **Question:** What's the lowest point for search traffic in the calendar year?
 **Answer:** *Search traffic is the lowst in October*
 
+## Step 5:
+### Step 1
+![MercadoLibre Sales Prophet DataFrame!](/images/bokeh_plot_MercadoLibre_Sales_Prophet_DataFrame.png)
 
+### Step 2
+![Future Prophet Prediction Components for MercadoLibre!](/images/Future_Predictions_Components.png)
 
+**Question:** For example, what are the peak revenue days? (Mondays? Fridays? Something else?)
+**Answer:** *The peak revenue days are Mondays, Tuesdays and Wednesdays*
+
+### Step 3
+![Future Prophet Predictions for MercadoLibre!](/images/Future_Predictions_Plot.png)
+
+### Based on the forecast information generated above, produce a sales forecast for the finance division, giving them a number for expected total sales next quarter. Include best and worst case scenarios, to better help the finance team plan.
+**Answer:** *Based on the predictions of the Prophet machine learning model, the most likely sales forecast for the next quarter will be ~970 with the best case being ~1052 and worst case being ~888.*
 
 
 
@@ -79,3 +92,4 @@ USYD FinTech Course Week 11 Challenge Repo
 - https://www.markdownguide.org/basic-syntax/
 - https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.shift.html
 - https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.corr.html
+- https://stackoverflow.com/questions/11346283/renaming-column-names-in-pandas
